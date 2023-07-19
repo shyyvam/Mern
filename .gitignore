@@ -1,0 +1,3 @@
+# Ignore environment variables file (usually .env)
+config.env
+.env
