@@ -4,7 +4,7 @@ const connectDatabase = async () => {
     try {
       await mongoose.connect(process.env.DB_URI, {
         useNewUrlParser: true,
-        useUnifiedTopology: true,
+            useUnifiedTopology: true,
       });
   
       // Define your models and their schemas here...
